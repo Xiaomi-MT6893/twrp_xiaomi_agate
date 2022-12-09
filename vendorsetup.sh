@@ -55,7 +55,6 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export FOX_BUGGED_AOSP_ARB_WORKAROUND="1616300800"; # Sun 21 Mar 04:26:40 GMT 2021
 
 	export TARGET_DEVICE_ALT="agatein,amber"
-	export OF_TARGET_DEVICES="agate,agatein,amber"
 	export FOX_RECOVERY_BOOT_PARTITION="/dev/block/platform/bootdevice/by-name/boot"
     
 	# Screen Settings
